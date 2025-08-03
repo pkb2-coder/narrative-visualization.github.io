@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f9fafd;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#main-title {
+    margin-top: 30px;
+}
+#viz-container {
+    margin: 30px auto 10px;
+    width: 800px;
+    height: 480px;
+}
+#annotation {
+    margin: 18px auto 16px;
+    width: 700px;
+    min-height: 45px;
+    color: #234;
+    background: #f1f5fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #0001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15em;
+    font-weight: 500;
+}
+#controls {
+    margin-top: 18px;
+    font-size: 1.1em;
+}
+button {
+    padding: 8px 20px;
+    font-size: 1.1em;
+    margin: 0 10px;
+    border-radius: 8px;
+    border: 1px solid #c8d2e1;
+    background: #e7ecf1;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+#scene-indicator {
+    font-size: 1em;
+    color: #356;
+    font-weight: bold;
+    margin: 0 10px;
+}
+#state-selector select {
+    font-size: 1em;
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 1px solid #b7c3d3;
+    margin-left: 16px;
+}
